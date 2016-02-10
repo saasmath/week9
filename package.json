@@ -1,6 +1,6 @@
 {
-  "name": "winter30",
-  "version": "0.0.1",
+  "name": "week9",
+  "version": "0.0.2",
   "description": "Activities and challenges for learning nodejs for the Raspberry Pi",
   "main": "01_saasmath.js",
   "scripts": {
