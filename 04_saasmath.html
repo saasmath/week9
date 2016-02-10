@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>04_saasmath</title>
+    <title>04_template</title>
 </head>
-
 <body>
     <button id="clickme">Click me</button>
     <div id="greetings">...</div>
@@ -21,17 +19,14 @@
         socket.emit('doServer', payload);
     });
 
-
     $('#clickme').on("click", doclick);
 
     function doclick(event) {
-        console.log(event);
+        //console.log(event);
         payload = {};
         payload.timeStamp = event.timeStamp;
         socket.emit('doServer', payload);
     }
     </script>
-
     <body>
-
 </html>

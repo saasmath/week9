@@ -19,7 +19,7 @@ var n = pageName.lastIndexOf('/');
 var pageName = pageName.substring(n + 1);
 pageName = pageName.replace(".js", ".html");
 
-var port = (process.argv[2] ? process.argv[2] : 3000);
+var port = (process.argv[2] ? Number(process.argv[2]) : 3000);
 app.listen(port);
 console.log("listening on port ", port);
 
